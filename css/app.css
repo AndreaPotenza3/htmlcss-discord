@@ -89,10 +89,12 @@ nav a{
     padding: 8px 15px;
 }
 
-a.open{
+.first .open{
     margin-left: 15px;
     background-color: black;
     color: white;
+    border-radius: 999px;
+    padding: 10px 12px;
 }
 
 /*MAIN CONTENT*/
@@ -128,6 +130,12 @@ a.open{
 .first .row{
     justify-content: center;
     min-height: 490px;
+}
+
+a.button{
+    border-radius: 999px;
+    background-color: white;
+    padding: 10px;
 }
 
 .second{
@@ -232,11 +240,7 @@ a.open{
     border: dashed black 1px;
 }
 
-a.button{
-    border-radius: 999px;
-    background-color: white;
-    padding: 10px;
-}
+
 
 .fifth .conteiner{
     height: 1000px;
@@ -248,6 +252,10 @@ a.button{
     background-color:cornflowerblue;
     padding: 10px;
     color: white;
+}
+
+.fifth h2{
+    padding-bottom: 50px;
 }
 
 /*FOOTER*/
