@@ -1,9 +1,14 @@
 /* RESET*/
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
     margin: 0;
     box-sizing:border-box;
 }
+html{
+    font-family: "PT Sans", sans-serif;
+    }
 
 body{
     padding: 0;
@@ -11,6 +16,10 @@ body{
 
 ul,ol{
     list-style: none;
+}
+
+a{
+    text-decoration: none;
 }
 /* LAYOUT */
 
@@ -33,6 +42,18 @@ section .conteiner{
     height: 300px;
 }
 
+.title{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.first p{
+    padding: 20px;
+}
+
 /* HEADER */
 
 header{
@@ -42,6 +63,8 @@ header{
 
 header .row{
     align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .list{
@@ -58,14 +81,6 @@ header .row{
 
 .col.list{
     width: 50%;
-}
-
-.logo{
-    width: 25%;
-}
-
-.login {
-    width: 25%;
 }
 
 nav a{
@@ -88,6 +103,10 @@ nav a{
 
 .first *{
     color: white;
+}
+
+.first a{
+    color: black;
 }
 
 .col-1{
@@ -221,6 +240,7 @@ nav a{
 a.button{
     border-radius: 999px;
     background-color: white;
+    padding: 10px;
 }
 
 
