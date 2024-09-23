@@ -84,6 +84,17 @@ nav a{
     color: white;
 }
 
+.login.col.button{
+    color: black;
+    padding: 8px 15px;
+}
+
+a.open{
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+}
+
 /*MAIN CONTENT*/
 
 /* PRIMA SEZIONE */
@@ -186,11 +197,11 @@ nav a{
 
 .sixth{
     height: 600px;
-    background-color: black;
+    background-color: #292727;
 }
 
 .sixth .row{
-    padding: 25px 0;
+    padding-top: 80px;
 }
 
 .col-6{
@@ -204,8 +215,8 @@ nav a{
 }
 
 .seventh{
-    height: 50px;
-    background-color: black;
+    height: 100px;
+    background-color: #292727;
 }
 
 .seventh .row{
@@ -215,16 +226,6 @@ nav a{
 
 .seventh .conteiner{
     height: 50px;
-}
-
-.seventh a{
-    background-color: rgb(221, 115, 115);
-    padding: 4px 5px;
-}
-
-.seventh button{
-    background-color: rgb(221, 115, 115);
-
 }
 
 .debug{
@@ -284,3 +285,22 @@ a.button{
 .sixth span{
     vertical-align: 4px;
 }
+
+.seventh .row{
+    border-top: 1px solid cornflowerblue;
+    align-items: center;
+}
+
+.register{
+    background-color:cornflowerblue;
+    border-radius: 999px;
+    color: white;
+    padding: 10px 15px;
+}
+.logo{
+    padding: 20px 5px;
+}
+
+
+
+
