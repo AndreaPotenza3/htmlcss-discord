@@ -24,9 +24,9 @@ a{
 /* LAYOUT */
 
 .conteiner{
-    width: 800px;
+    width: 1500px;
     margin: auto;
-    padding: 0 20px;
+
 }
 
 .row{
@@ -48,10 +48,7 @@ section .conteiner{
 
 p{
     font-size: 20px;
-}
-
-.first p{
-    padding: 20px;
+    padding: 20px 0;
 }
 
 /* HEADER */
@@ -63,7 +60,7 @@ header{
 
 header .row{
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
 }
 
@@ -91,14 +88,11 @@ nav a{
 
 /* PRIMA SEZIONE */
 
-.first.conteinter{
-    height: 300px;
-}
-
 .first{
-    height: 300px;
+    height: 490px;
     background-image:url(../img/jumbo.png);
-    background-size: cover;
+    background-size:cover;
+    background-position: center;
 }
 
 .first *{
@@ -108,30 +102,33 @@ nav a{
 .first a{
     color: black;
 }
+.first{
+    text-align: center;
+}
 
 .col-1{
     height: 250px;
-    width: 600px;
 }
 
 .first .row{
     justify-content: center;
-    padding: 25px;
+    min-height: 490px;
 }
 
 .second{
-    height: 350px;
+    height: 600px;
     background-color: white;
 
 }
 
 .second .conteiner{
-    height: 350px;
+    height: 490px;
 }
 
 .second .row{
     align-items: center;
     padding: 25px 0;
+    height: 600px;
 }
 
 .third .row{
@@ -145,15 +142,11 @@ nav a{
 
 
 .col-2{
-    height: 300px;
-    background-color: rgb(18, 86, 175);
     margin: auto;
     width: 60%;
 }
 
 .col-3{
-    height: 300px;
-    background-color: pink;
     margin: auto;
     width: 40%;
 }
