@@ -1,0 +1,227 @@
+/* RESET*/
+
+* {
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+/* LAYOUT */
+
+.conteiner{
+    width: 800px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;;
+}
+
+.row{
+    align-items: center;
+}
+
+section .conteiner{
+    height: 300px;
+}
+
+/* HEADER */
+
+header{
+    background-color: rgb(19, 94, 235);
+    padding: 15px 0;
+}
+
+header .row{
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    justify-content: center;
+
+}
+
+.col{
+    padding: 5px; 
+}
+
+.col.list{
+    width: 50%;
+}
+
+.logo{
+    width: 25%;
+}
+
+.login {
+    width: 25%;
+}
+
+nav a{
+    color: white;
+}
+
+/*MAIN CONTENT*/
+
+/* PRIMA SEZIONE */
+
+.first.conteinter{
+    height: 300px;
+}
+
+.first{
+    height: 300px;
+    background-image:url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.first *{
+    color: white;
+}
+
+.col-1{
+    height: 250px;
+    width: 600px;
+}
+
+.first .row{
+    justify-content: center;
+    padding: 25px;
+}
+
+.second{
+    height: 350px;
+    background-color: white;
+
+}
+
+.second .conteiner{
+    height: 350px;
+}
+
+.second .row{
+    align-items: center;
+    padding: 25px 0;
+}
+
+.third .row{
+    align-items: center;
+    padding: 25px 0;
+}
+
+.second .row div{
+    margin: 0;
+}
+
+
+.col-2{
+    height: 300px;
+    background-color: rgb(18, 86, 175);
+    margin: auto;
+    width: 60%;
+}
+
+.col-3{
+    height: 300px;
+    background-color: pink;
+    margin: auto;
+    width: 40%;
+}
+
+.third{
+    height: 350px;
+    background-color: grey;
+}
+
+.col-4{
+    height: 300px;
+    background-color: rgb(13, 68, 172);
+    margin: auto;
+    width: 60%;
+}
+
+.fifth{
+    height: 650px;
+    background-color: grey;
+}
+
+.fifth .row{
+    padding: 25px 0;
+}
+
+.col-5{
+    height: 600px;
+    background-color: green;
+    margin: auto;
+    width: 100%;
+
+}
+
+.sixth{
+    height: 350px;
+    background-color: black;
+}
+
+.sixth .row{
+    padding: 25px 0;
+}
+
+.col-6{
+    height: 300px;
+    background-color: rgb(163, 70, 70);
+    width: calc(2 * 100% / 6);
+}
+
+.col-7{
+    height: 300px;
+    background-color: rgb(47, 139, 109);
+    width: calc(100% / 6);
+}
+
+.seventh{
+    height: 50px;
+    background-color: black;
+}
+
+.seventh .row{
+    justify-content: space-between;
+    background-color: aquamarine;
+    height: 45px;
+}
+
+.seventh .conteiner{
+    height: 50px;
+}
+
+.seventh a{
+    background-color: rgb(221, 115, 115);
+    padding: 4px 5px;
+}
+
+.seventh button{
+    background-color: rgb(221, 115, 115);
+
+}
+
+.debug{
+    border: dashed black 1px;
+}
+
+a.button{
+    border-radius: 999px;
+    background-color: white;
+}
+
+
+
