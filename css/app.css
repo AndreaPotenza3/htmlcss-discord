@@ -24,7 +24,7 @@ a{
 /* LAYOUT */
 
 .conteiner{
-    width: 1500px;
+    max-width: 1500px;
     margin: auto;
 
 }
@@ -109,7 +109,7 @@ nav a{
 }
 
 .first .conteiner{
-    height: 490px;
+    min-height: 490px;
 }
 
 .first *{
