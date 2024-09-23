@@ -167,7 +167,7 @@ nav a{
 }
 
 .fifth{
-    height: 650px;
+    height: 1000px;
     background-color: #efefef;
 }
 
@@ -176,10 +176,10 @@ nav a{
 }
 
 .col-5{
-    height: 600px;
-    background-color: green;
+    height: 1000px;
     margin: auto;
     width: 100%;
+    text-align: center;
 
 }
 
@@ -237,6 +237,19 @@ a.button{
     border-radius: 999px;
     background-color: white;
     padding: 10px;
+}
+
+
+.fifth a{
+    border-radius: 999px;
+    background-color:cornflowerblue;
+    padding: 10px;
+    color: white;
+}
+
+.subtitle{
+    padding: 50px;
+    font-size: 30px;
 }
 
 
